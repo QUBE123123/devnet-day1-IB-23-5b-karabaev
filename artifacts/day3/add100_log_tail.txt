@@ -1,0 +1,3 @@
+added_ok=100
+added_fail=0
+id_range=7800..7899

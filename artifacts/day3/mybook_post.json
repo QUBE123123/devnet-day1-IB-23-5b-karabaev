@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "0d43b90aa9acf772d8f9bf6ffeaa381283081103b1f0fd12b06f9dfc7525bf16",
+  "request": {
+    "author": "Karabaev Alikhan",
+    "id": 5009,
+    "isbn": "978-09ecf90ce5",
+    "title": "My DevNet Book ecf90ce5"
+  },
+  "response": {
+    "author": "Karabaev Alikhan",
+    "id": 5009,
+    "title": "My DevNet Book ecf90ce5"
+  },
+  "status_code": 200
+}

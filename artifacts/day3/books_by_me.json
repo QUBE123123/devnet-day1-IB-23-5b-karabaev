@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Karabaev Alikhan",
+      "id": 5009,
+      "isbn": "978-09ecf90ce5",
+      "title": "My DevNet Book ecf90ce5"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7800,
+      "isbn": "978-0-696-20454-8",
+      "title": "Streamlined regional groupware [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7801,
+      "isbn": "978-1-85167-099-4",
+      "title": "Ameliorated well-modulated orchestration [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7802,
+      "isbn": "978-1-73116-731-6",
+      "title": "Fundamental scalable workforce [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7803,
+      "isbn": "978-1-328-14151-4",
+      "title": "De-engineered multi-tasking firmware [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7804,
+      "isbn": "978-0-448-11472-9",
+      "title": "Advanced 4thgeneration circuit [ecf90ce5]"
+    }
+  ],
+  "status_code": 200
+}

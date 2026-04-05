@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "title": "IP Routing Fundamentals",
+        "author": "Mark A. Sportack"
+    },
+    {
+        "id": 1,
+        "title": "Python for Dummies",
+        "author": "Stef Maruch Aahz Maruch"
+    },
+    {
+        "id": 2,
+        "title": "Linux for Networkers",
+        "author": "Cisco Systems Inc."
+    },
+    {
+        "id": 3,
+        "title": "NetAcad: 20 Years Of Online-Learning",
+        "author": "Cisco Systems Inc."
+    }
+]

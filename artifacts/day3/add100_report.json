@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "0d43b90aa9acf772d8f9bf6ffeaa381283081103b1f0fd12b06f9dfc7525bf16",
+  "author_used": "Karabaev Alikhan",
+  "count_requested": 100,
+  "generated_utc": "2026-04-05T12:37:27.812531+00:00",
+  "id_range": [
+    7800,
+    7899
+  ],
+  "sample_books": [
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7800,
+      "isbn": "978-0-696-20454-8",
+      "title": "Streamlined regional groupware [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7801,
+      "isbn": "978-1-85167-099-4",
+      "title": "Ameliorated well-modulated orchestration [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7802,
+      "isbn": "978-1-73116-731-6",
+      "title": "Fundamental scalable workforce [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7803,
+      "isbn": "978-1-328-14151-4",
+      "title": "De-engineered multi-tasking firmware [ecf90ce5]"
+    },
+    {
+      "author": "Karabaev Alikhan",
+      "id": 7804,
+      "isbn": "978-0-448-11472-9",
+      "title": "Advanced 4thgeneration circuit [ecf90ce5]"
+    }
+  ],
+  "tag": "ecf90ce5"
+}

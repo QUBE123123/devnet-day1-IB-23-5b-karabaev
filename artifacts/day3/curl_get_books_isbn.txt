@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "title": "IP Routing Fundamentals",
+        "author": "Mark A. Sportack",
+        "isbn": "978-1578700714"
+    },
+    {
+        "id": 1,
+        "title": "Python for Dummies",
+        "author": "Stef Maruch Aahz Maruch",
+        "isbn": "978-0471778646"
+    },
+    {
+        "id": 2,
+        "title": "Linux for Networkers",
+        "author": "Cisco Systems Inc.",
+        "isbn": "000-0000000123"
+    },
+    {
+        "id": 3,
+        "title": "NetAcad: 20 Years Of Online-Learning",
+        "author": "Cisco Systems Inc.",
+        "isbn": "000-0000001123"
+    }
+]

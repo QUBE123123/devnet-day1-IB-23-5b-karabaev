@@ -1,0 +1,34 @@
+{
+  "artifacts_sha256": {
+    "add100_report": "efeda8adf01733772630091c4c37b77f917c00f76d5ade21bf62bbeea69ab9ae",
+    "books_before": "e9d34fda886ea13e48f880ed70831f5548107833a76bb9f8888b88bb5c979458",
+    "books_by_me": "e4ddc6f4b84c2b44f565268ad8d0da24b19e4189d27070109ecd6e7ad13538d5",
+    "books_sorted_isbn": "93934547f1e3d0d592639533661497ca2eb6a8b60073b0bfd7fecc086edf0d6b",
+    "curl_get_books": "de64bae22fde03848fbeb14e2a6c661cf7e9eed12f29b574d596224bf5bf6bf9",
+    "curl_get_books_isbn": "ee1093008a5d89a75d9aaf8a2c8a7987c8841bce0c4028d02d32e78f083fb227",
+    "curl_get_books_sorted": "6e87e9da9e47b139ee6633b979ddefac161bd7ee3006a66118067b2b866bcef5",
+    "mybook_post": "28068613fc2807adeb4f5670446adeb78222ba26f95f118ff6069432efc8bad4",
+    "postman_collection": "de64bae22fde03848fbeb14e2a6c661cf7e9eed12f29b574d596224bf5bf6bf9",
+    "postman_environment": "2071d6bd9522da91cc4c78fbc30778b7822aa36faa2faa38350c9c26455e387a"
+  },
+  "generated_utc": "2026-04-05T12:38:21.892851+00:00",
+  "lab": {
+    "apihost": "http://library.demo.local",
+    "must_use": {
+      "api_key_header": "X-API-KEY",
+      "books_endpoint": "http://library.demo.local/api/v1/books",
+      "login_endpoint": "http://library.demo.local/api/v1/loginViaBasic"
+    }
+  },
+  "schema_version": "3.1",
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Karabaev Alikhan",
+    "token": "D1-IB-23-5b-09-F0C3",
+    "token_hash8": "ecf90ce5"
+  },
+  "validation": {
+    "must_have_added_100": true,
+    "must_have_mybook_title_contains_token_hash8": true
+  }
+}

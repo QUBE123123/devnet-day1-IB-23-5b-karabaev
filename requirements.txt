@@ -2,3 +2,4 @@ requests
 pytest
 jsonschema
 PyYAML
+faker
