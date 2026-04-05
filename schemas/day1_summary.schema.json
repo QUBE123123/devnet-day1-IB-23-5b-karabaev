@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "generated_utc", "student", "api", "run"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "generated_utc": { "type": "string" },
+    "student": {
+      "type": "object",
+      "required": ["token", "name", "group"],
+      "properties": {
+        "token": { "type": "string", "minLength": 5 },
+        "name": { "type": "string", "minLength": 3 },
+        "group": { "type": "string", "minLength": 2 }
+      }
+    },
+    "api": {
+      "type": "object",
+      "required": ["url", "status_code", "validation_passed", "validation_errors", "response_sha256"],
+      "properties": {
+        "url": { "type": "string" },
+        "status_code": { "type": "integer" },
+        "validation_passed": { "type": "boolean" },
+        "validation_errors": { "type": "array", "items": { "type": "string" } },
+        "response_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "run": {
+      "type": "object",
+      "required": ["python", "platform"],
+      "properties": {
+        "python": { "type": "string" },
+        "platform": { "type": "string" }
+      }
+    }
+  }
+}
