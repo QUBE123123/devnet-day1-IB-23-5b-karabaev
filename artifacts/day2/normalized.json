@@ -1,0 +1,17 @@
+{
+  "computed": {
+    "title_len": 18
+  },
+  "student": {
+    "group": "IB-23-5b",
+    "name": "Karabaev Alikhan",
+    "token": "D1-IB-23-5b-09-F0C3",
+    "token_hash8": "ecf90ce5"
+  },
+  "todo": {
+    "completed": false,
+    "id": 1,
+    "title": "delectus aut autem",
+    "userId": 1
+  }
+}

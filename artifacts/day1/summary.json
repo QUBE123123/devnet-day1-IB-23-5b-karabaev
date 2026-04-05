@@ -6,7 +6,7 @@
     "validation_errors": [],
     "validation_passed": true
   },
-  "generated_utc": "2026-04-05T11:46:37.128811+00:00",
+  "generated_utc": "2026-04-05T12:09:32.956492+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
@@ -14,7 +14,7 @@
   "schema_version": "1.0",
   "student": {
     "group": "IB-23-5b",
-    "name": "Karabaev",
+    "name": "Karabaev Alikhan",
     "token": "D1-IB-23-5b-09-F0C3"
   }
 }
