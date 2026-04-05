@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "generated_utc", "student", "input", "outputs", "computed"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "2.0" },
+    "generated_utc": { "type": "string" },
+
+    "student": {
+      "type": "object",
+      "required": ["token", "token_hash8", "name", "group"],
+      "properties": {
+        "token": { "type": "string", "minLength": 10 },
+        "token_hash8": { "type": "string", "pattern": "^[a-f0-9]{8}$" },
+        "name": { "type": "string", "minLength": 3 },
+        "group": { "type": "string", "minLength": 2 }
+      }
+    },
+
+    "input": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+
+    "outputs": {
+      "type": "object",
+      "required": [
+        "normalized_json_sha256",
+        "normalized_yaml_sha256",
+        "normalized_xml_sha256",
+        "normalized_csv_sha256"
+      ],
+      "properties": {
+        "normalized_json_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "normalized_yaml_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "normalized_xml_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "normalized_csv_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+
+    "computed": {
+      "type": "object",
+      "required": ["title_len"],
+      "properties": {
+        "title_len": { "type": "integer", "const": 18 }
+      }
+    }
+  }
+}

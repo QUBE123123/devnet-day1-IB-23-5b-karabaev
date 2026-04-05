@@ -1,0 +1,16 @@
+*   962f5fb (HEAD -> main) Resolve README conflict (Day2)
+|\  
+| * caf9081 (feature/day2-readme-B) docs: modification from branch B
+* | a1c69ed (feature/day2-readme-A) docs: modification from branch A
+|/  
+* c34f5e5 docs: prepare base for conflict
+* a9c8332 docs: modification from branch B
+* 7174066 docs: modification from branch A
+* 7c94005 docs: set base line for conflict
+* 8a351d1 docs: edit readme in branch B
+* b7dda24 docs: initial readme
+* d50da33 (origin/main, feature/day2-dataformats) final: generate lab artifacts
+* fb72eb9 test: add json schema and unit tests
+* 7e1b85c feat: implement API fetch and validation logic
+* 8cabefb feat: add VM system evidence
+* 30be2a8 docs: setup project structure and environment
